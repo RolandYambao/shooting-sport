@@ -146,7 +146,7 @@ class Shooting extends Component {
                     <div className="hero-body">
                         <div className="container has-text-centered">
                             <h1 className="title">
-                                The new standard in &lt;insert industry here&gt;
+                                The International Center for Professional Shooting
                             </h1>
                             <h2 className="subtitle">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -156,7 +156,7 @@ class Shooting extends Component {
                 </section>
                 <div className="box cta">
                     <p className="has-text-centered">
-                        <span className="tag is-primary">New</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <span className="tag is-primary">Latest</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                 </div>
                 <section className="container">

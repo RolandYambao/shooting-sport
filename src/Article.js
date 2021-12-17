@@ -7,9 +7,9 @@ class Article extends Component {
     }
 
     render() {
-        // return (
-
-        // );
+        return (
+            console.log('Hello World')
+        );
     }
 }
 

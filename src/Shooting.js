@@ -12,6 +12,7 @@ const newShootingNews = [{
     content2: 'Shooting Stuff',
 
     title3: 'Shooting',
+    subtitle3: 'Stuff Shooting',
     content3: 'Shooting Stuff',
 
     title4: 'Shooting',
@@ -24,21 +25,27 @@ const newShootingNews = [{
     content6: 'Shooting Stuff',
 
     title7: 'Shooting',
+    subtitle7: 'Stuff Shooting',
     content7: 'Shooting Stuff',
 
     title8: 'Shooting',
+    subtitle8: 'Stuff Shooting',
     content8: 'Shooting Stuff',
 
     title9: 'Shooting',
+    subtitle9: 'Stuff Shooting',
     content9: 'Shooting Stuff',
 
     title10: 'Shooting',
+    subtitle10: 'Stuff Shooting',
     content10: 'Shooting Stuff',
 
     title11: 'Shooting',
+    subtitle11: 'Stuff Shooting',
     content11: 'Shooting Stuff',
 
     title12: 'Shooting',
+    subtitle12: 'Stuff Shooting',
     content12: 'Shooting Stuff',
 }];
 
@@ -54,6 +61,7 @@ const displayShootingNewsList = newShootingNews.map((post, idx) => {
             content2={post.content2}
 
             title3={post.title3}
+            subtitle3={post.subtitle3}
             content3={post.content3}
 
             title4={post.title4}
@@ -66,21 +74,27 @@ const displayShootingNewsList = newShootingNews.map((post, idx) => {
             content6={post.content6}
 
             title7={post.title7}
+            subtitle7={post.subtitle7}
             content7={post.content7}
 
             title8={post.title8}
+            subtitle8={post.subtitle8}
             content8={post.content8}
 
             title9={post.title9}
+            subtitle9={post.subtitle9}
             content9={post.content9}
 
             title10={post.title10}
+            subtitle10={post.subtitle10}
             content10={post.content10}
 
             title11={post.title11}
+            subtitle11={post.subtitle11}
             content11={post.content11}
 
             title12={post.title12}
+            subtitle12={post.subtitle12}
             content12={post.content12}
 
         />

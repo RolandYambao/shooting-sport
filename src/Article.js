@@ -25,7 +25,7 @@ class Article extends Component {
                     <div className="tile is-parent is-shady">
                         <article className="tile is-child notification is-white">
                             <p className="title">{this.props.title3}</p>
-                            <p className="subtitle">With some content</p>
+                            <p className="subtitle">{this.props.subtitle3}</p>
                             <div className="content">
                                 <p>{this.props.content3}</p>
                             </div>
@@ -58,7 +58,7 @@ class Article extends Component {
                         <div className="tile is-parent is-shady">
                             <article className="tile is-child notification is-white">
                                 <p className="title">{this.props.title7}</p>
-                                <p className="subtitle">Aligned with the right column</p>
+                                <p className="subtitle">{this.props.subtitle7}</p>
                                 <div className="content">
                                     <p>{this.props.content7}</p>
                                 </div>
@@ -69,7 +69,7 @@ class Article extends Component {
                         <article className="tile is-child notification is-white">
                             <div className="content">
                                 <p className="title">{this.props.title8}</p>
-                                <p className="subtitle">With even more content</p>
+                                <p className="subtitle">{this.props.subtitle8}</p>
                                 <div className="content">
                                     <p>{this.props.content8}</p>
                                 </div>
@@ -81,7 +81,7 @@ class Article extends Component {
                     <div className="tile is-parent is-shady">
                         <article className="tile is-child notification is-white">
                             <p className="title">{this.props.title9}</p>
-                            <p className="subtitle">With some content</p>
+                            <p className="subtitle">{this.props.subtitle9}</p>
                             <div className="content">
                                 <p>{this.props.content9}</p>
                             </div>
@@ -90,7 +90,7 @@ class Article extends Component {
                     <div className="tile is-parent is-8 is-shady">
                         <article className="tile is-child notification is-white">
                             <p className="title">{this.props.title10}</p>
-                            <p className="subtitle">With some content</p>
+                            <p className="subtitle">{this.props.subtitle10}</p>
                             <div className="content">
                                 <p>{this.props.content10}</p>
                             </div>
@@ -101,7 +101,7 @@ class Article extends Component {
                     <div className="tile is-parent is-8 is-shady">
                         <article className="tile is-child notification is-white">
                             <p className="title">{this.props.title11}</p>
-                            <p className="subtitle">Anything that can go wrong will go wrong</p>
+                            <p className="subtitle">{this.props.subtitle11}</p>
                             <div className="content">
                                 <p>{this.props.content11}</p>
                             </div>
@@ -110,7 +110,7 @@ class Article extends Component {
                     <div className="tile is-parent is-shady">
                         <article className="tile is-child notification is-white">
                             <p className="title">{this.props.title12}</p>
-                            <p className="subtitle">With some content</p>
+                            <p className="subtitle">{this.props.subtitle12}</p>
                             <div className="content">
                                 <p>{this.props.content12}</p>
                             </div>

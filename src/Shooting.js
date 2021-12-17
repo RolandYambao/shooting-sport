@@ -5,48 +5,48 @@ import './Shooting.css';
 import Article from './Article'
 
 const newShootingNews = [{
-    title1: 'Shooting',
-    content1: 'Shooting Stuff',
+    title1: 'Competitive Musketry',
+    content1: 'New Olympic Sport Proposal involving Smoothbore Muskets, Requires Minimal Training',
 
-    title2: 'Shooting',
-    content2: 'Shooting Stuff',
+    title2: 'Gun Explodes after Firing',
+    content2: 'Contestant Replaces Gunpowder with High Explosives',
 
-    title3: 'Shooting',
-    subtitle3: 'Stuff Shooting',
-    content3: 'Shooting Stuff',
+    title3: 'Professional Shooter, Shoots his Own Foot',
+    subtitle3: 'Strange Occurances',
+    content3: 'Rumor of Avoiding Shooting Practice',
 
-    title4: 'Shooting',
-    content4: 'Shooting Stuff',
+    title4: 'Ammunition Cost',
+    content4: 'Rising',
 
-    title5: 'Shooting',
-    content5: 'Shooting Stuff',
+    title5: 'Ammunition Cost',
+    content5: 'Still Rising',
 
-    title6: 'Shooting',
-    content6: 'Shooting Stuff',
+    title6: 'Great Places to Shoot',
+    content6: 'Somewhere Near this Image',
 
-    title7: 'Shooting',
-    subtitle7: 'Stuff Shooting',
-    content7: 'Shooting Stuff',
+    title7: 'Revolutionary New Shooting Sport, Skeet Throwing',
+    subtitle7: 'Odd Idea to increase Olympic Viewership',
+    content7: 'Contestants will throw Skeets at the Guns this time',
 
-    title8: 'Shooting',
-    subtitle8: 'Stuff Shooting',
-    content8: 'Shooting Stuff',
+    title8: 'Fewer People Watching Olympic Shooting Events',
+    subtitle8: 'Olympic Committee Perplexed',
+    content8: 'Management Suggests Utilizing Machine Guns to Attract more Viewers',
 
-    title9: 'Shooting',
-    subtitle9: 'Stuff Shooting',
-    content9: 'Shooting Stuff',
+    title9: 'Jam Shooting',
+    subtitle9: 'A New Shooting Sport',
+    content9: 'Guns are covered in mud, last one to jam wins',
 
-    title10: 'Shooting',
-    subtitle10: 'Stuff Shooting',
-    content10: 'Shooting Stuff',
+    title10: 'Gun Juggling',
+    subtitle10: 'Contestant Wins Gold Medal in Gun Juggling',
+    content10: 'Latest Sport Baffles Audience',
 
-    title11: 'Shooting',
-    subtitle11: 'Stuff Shooting',
-    content11: 'Shooting Stuff',
+    title11: 'Bayonet Fighting',
+    subtitle11: 'New Shooting Sport without Shooting',
+    content11: 'Contestants Attempt to Stab each other with Bayonets instead',
 
-    title12: 'Shooting',
-    subtitle12: 'Stuff Shooting',
-    content12: 'Shooting Stuff',
+    title12: 'Sports Shooting',
+    subtitle12: 'This time it is Different',
+    content12: 'New Sport where people Shoot the Equipment of other Sports with Guns',
 }];
 
 
@@ -206,7 +206,7 @@ class Shooting extends Component {
                         </div>
                     </div>
                     <div className="intro column is-8 is-offset-2">
-                        <h2 className="title">Perfect for developers or designers!</h2><br />
+                        <h2 className="title">Latest News for all Shooting Sports</h2><br />
                         <p className="subtitle">Vel fringilla est ullamcorper eget nulla facilisi. Nulla facilisi nullam vehicula ipsum a. Neque egestas congue quisque egestas diam in arcu cursus.</p>
                     </div>
                     {displayShootingNewsList}

@@ -45,7 +45,45 @@ const newShootingNews = {
 
 const displayShootingNewsList = newShootingNews.map((post, idx) => {
     return (
-        <Article key={idx} index={idx} title={post.title} content={post.content} />
+        <Article key={idx} index={idx}
+
+            title1={post.title1}
+            content1={post.content1}
+
+            title2={post.title2}
+            content2={post.content2}
+
+            title3={post.title3}
+            content3={post.content3}
+
+            title4={post.title4}
+            content4={post.content4}
+
+            title5={post.title5}
+            content5={post.content5}
+
+            title6={post.title6}
+            content6={post.content6}
+
+            title7={post.title7}
+            content7={post.content7}
+
+            title8={post.title8}
+            content8={post.content8}
+
+            title9={post.title9}
+            content9={post.content9}
+
+            title10={post.title10}
+            content10={post.content10}
+
+            title11={post.title11}
+            content11={post.content11}
+
+            title12={post.title12}
+            content12={post.content12}
+
+        />
     );
 });
 
@@ -157,121 +195,7 @@ class Shooting extends Component {
                         <h2 className="title">Perfect for developers or designers!</h2><br />
                         <p className="subtitle">Vel fringilla est ullamcorper eget nulla facilisi. Nulla facilisi nullam vehicula ipsum a. Neque egestas congue quisque egestas diam in arcu cursus.</p>
                     </div>
-                    <div className="sandbox">
-                        <div className="tile is-ancestor">
-                            <div className="tile is-parent is-shady">
-                                <article className="tile is-child notification is-white">
-                                    <p className="title">Hello World</p>
-                                    <p className="subtitle">What is up?</p>
-                                </article>
-                            </div>
-                            <div className="tile is-parent is-shady">
-                                <article className="tile is-child notification is-white">
-                                    <p className="title">Foo</p>
-                                    <p className="subtitle">Bar</p>
-                                </article>
-                            </div>
-                            <div className="tile is-parent is-shady">
-                                <article className="tile is-child notification is-white">
-                                    <p className="title">Third column</p>
-                                    <p className="subtitle">With some content</p>
-                                    <div className="content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                        <div className="tile is-ancestor">
-                            <div className="tile is-vertical is-8">
-                                <div className="tile">
-                                    <div className="tile is-parent is-vertical">
-                                        <article className="tile is-child notification is-white">
-                                            <p className="title">Vertical tiles</p>
-                                            <p className="subtitle">Top box</p>
-                                        </article>
-                                        <article className="tile is-child notification is-white">
-                                            <p className="title">Vertical tiles</p>
-                                            <p className="subtitle">Bottom box</p>
-                                        </article>
-                                    </div>
-                                    <div className="tile is-parent">
-                                        <article className="tile is-child notification is-white">
-                                            <p className="title">Middle box</p>
-                                            <p className="subtitle">With an image</p>
-                                            <figure className="image is-4by3">
-                                                <img src="https://picsum.photos/640/480/?random" alt="Description" />
-                                            </figure>
-                                        </article>
-                                    </div>
-                                </div>
-                                <div className="tile is-parent is-shady">
-                                    <article className="tile is-child notification is-white">
-                                        <p className="title">Wide column</p>
-                                        <p className="subtitle">Aligned with the right column</p>
-                                        <div className="content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
-                            <div className="tile is-parent is-shady">
-                                <article className="tile is-child notification is-white">
-                                    <div className="content">
-                                        <p className="title">Tall column</p>
-                                        <p className="subtitle">With even more content</p>
-                                        <div className="content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula
-                                                eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-                                            <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet
-                                                felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
-                                            <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam
-                                                ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                        <div className="tile is-ancestor">
-                            <div className="tile is-parent is-shady">
-                                <article className="tile is-child notification is-white">
-                                    <p className="title">Side column</p>
-                                    <p className="subtitle">With some content</p>
-                                    <div className="content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div className="tile is-parent is-8 is-shady">
-                                <article className="tile is-child notification is-white">
-                                    <p className="title">Main column</p>
-                                    <p className="subtitle">With some content</p>
-                                    <div className="content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                        <div className="tile is-ancestor">
-                            <div className="tile is-parent is-8 is-shady">
-                                <article className="tile is-child notification is-white">
-                                    <p className="title">Murphy's law</p>
-                                    <p className="subtitle">Anything that can go wrong will go wrong</p>
-                                    <div className="content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div className="tile is-parent is-shady">
-                                <article className="tile is-child notification is-white">
-                                    <p className="title">Main column</p>
-                                    <p className="subtitle">With some content</p>
-                                    <div className="content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
+                    {displayShootingNewsList}
                 </section>
                 <footer className="footer">
                     <div className="container">

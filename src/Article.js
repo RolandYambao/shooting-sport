@@ -12,7 +12,7 @@ class Article extends Component {
                 <div className="tile is-ancestor">
                     <div className="tile is-parent is-shady">
                         <article className="tile is-child notification is-white">
-                            <p className="title">Hello World</p>
+                            <p className="title">{this.props.title1}</p>
                             <p className="subtitle">What is up?</p>
                         </article>
                     </div>

@@ -4,7 +4,7 @@ import './Shooting.css';
 // Component
 import Article from './Article'
 
-const newShootingNews = {
+const newShootingNews = [{
     title1: 'Shooting',
     content1: 'Shooting Stuff',
 
@@ -40,7 +40,7 @@ const newShootingNews = {
 
     title12: 'Shooting',
     content12: 'Shooting Stuff',
-};
+}];
 
 
 const displayShootingNewsList = newShootingNews.map((post, idx) => {

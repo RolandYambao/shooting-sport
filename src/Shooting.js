@@ -15,16 +15,16 @@ const newShootingNews = [{
     subtitle3: 'Strange Occurances',
     content3: 'Rumor of Avoiding Shooting Practice',
 
-    title4: 'Ammunition Cost',
-    content4: 'Rising',
+    title4: 'Ammunition Cost Rising',
+    content4: 'Rising to New Heights',
 
-    title5: 'Ammunition Cost',
-    content5: 'Still Rising',
+    title5: 'Ammunition Cost Still Rising',
+    content5: 'Still Rising to Even Higher Heights',
 
     title6: 'Great Places to Shoot',
     content6: 'Somewhere Near this Image',
 
-    title7: 'Revolutionary New Shooting Sport, Skeet Throwing',
+    title7: 'Revolutionary New Shooting Sport, Skeet Lobbing',
     subtitle7: 'Odd Idea to increase Olympic Viewership',
     content7: 'Contestants will throw Skeets at the Guns this time',
 
@@ -37,7 +37,7 @@ const newShootingNews = [{
     content9: 'Guns are covered in mud, last one to jam wins',
 
     title10: 'Gun Juggling',
-    subtitle10: 'Contestant Wins Gold Medal in Gun Juggling',
+    subtitle10: 'Contestant Wins Gold Medal in Juggling Guns',
     content10: 'Latest Sport Baffles Audience',
 
     title11: 'Bayonet Fighting',

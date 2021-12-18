@@ -2,6 +2,9 @@ html,body {
     background: #EFF3F4;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
+  .hero-head {
+    background-color: orange;
+  }
   .hero-body {
     background-color: black;
   }
@@ -28,7 +31,7 @@ html,body {
     font-size: 8rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    color: #209cee;
+    color: black;
   }
   .card-content .content {
     font-size: 14px;
@@ -73,5 +76,5 @@ html,body {
     font-family: 'FontAwesome';
     float: left;
     margin-left: -1.5em;
-    color: #147efb;
+    color: orange;
   }

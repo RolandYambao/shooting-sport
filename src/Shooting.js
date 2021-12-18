@@ -111,7 +111,8 @@ class Shooting extends Component {
                             <div className="container">
                                 <div className="navbar-brand">
                                     <a className="navbar-item" href="../">
-                                        <img src="http://bulma.io/images/bulma-type-white.png" alt="Logo" />
+                                        <h1><strong>Sports Shooting International</strong></h1>
+                                        {/* <img src="http://bulma.io/images/bulma-type-white.png" alt="Logo" /> */}
                                     </a>
                                     <span className="navbar-burger burger" data-target="navbarMenu">
                                         <span></span>
@@ -169,7 +170,7 @@ class Shooting extends Component {
                                 <div className="card-content">
                                     <div className="content">
                                         <h4>Shooting Around Pets</h4>
-                                        <p>How to deal with you Pet's reactions to Gun Fire. WARNING: Do not shoot dog with gun.</p>
+                                        <p>How to deal with you pet's reactions to gun fire. WARNING: Do not shoot the dog with a gun.</p>
                                         <p><a href="#">Learn more</a></p>
                                     </div>
                                 </div>
@@ -183,7 +184,7 @@ class Shooting extends Component {
                                 <div className="card-content">
                                     <div className="content">
                                         <h4>Shooting for the Government</h4>
-                                        <p>Police and Military Agencies are now recruiting Professional Shooters</p>
+                                        <p>Police and Military Agencies are now recruiting professional shooters. Serve the government's imperial ambitions with your sporting talents</p>
                                         <p><a href="#">Learn more</a></p>
                                     </div>
                                 </div>
@@ -197,7 +198,7 @@ class Shooting extends Component {
                                 <div className="card-content">
                                     <div className="content">
                                         <h4>Shooting and Technology</h4>
-                                        <p>The Latest Technological Advances in Firearms</p>
+                                        <p>The Latest Technological Advances in Firearms. Latest laser guns are in development, rumors state.</p>
                                         <p><a href="#">Learn more</a></p>
                                     </div>
                                 </div>
@@ -214,53 +215,40 @@ class Shooting extends Component {
                     <div className="container">
                         <div className="columns">
                             <div className="column is-3 is-offset-2">
-                                <h2><strong>Category</strong></h2>
+                                <h2><strong>Pistol Shooting Livestream</strong></h2>
                                 <ul>
-                                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                                    <li><a href="#">Vestibulum errato isse</a></li>
-                                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                                    <li><a href="#">Aisia caisia</a></li>
-                                    <li><a href="#">Murphy's law</a></li>
-                                    <li><a href="#">Flimsy Lavenrock</a></li>
-                                    <li><a href="#">Maven Mousie Lavender</a></li>
+                                    <li><a href="#">Competition #1</a></li>
+                                    <li><a href="#">Competition #2</a></li>
+                                    <li><a href="#">Competition #3</a></li>
+                                    <li><a href="#">Competition #4</a></li>
+                                    <li><a href="#">Competition #5</a></li>
+                                    <li><a href="#">Competition #6</a></li>
+                                    <li><a href="#">Competition #7</a></li>
                                 </ul>
                             </div>
                             <div className="column is-3">
-                                <h2><strong>Category</strong></h2>
+                                <h2><strong>Rifle Shooting Livestream</strong></h2>
                                 <ul>
-                                    <li><a href="#">Labore et dolore magna aliqua</a></li>
-                                    <li><a href="#">Kanban airis sum eschelor</a></li>
-                                    <li><a href="#">Modular modern free</a></li>
-                                    <li><a href="#">The king of clubs</a></li>
-                                    <li><a href="#">The Discovery Dissipation</a></li>
-                                    <li><a href="#">Course Correction</a></li>
-                                    <li><a href="#">Better Angels</a></li>
+                                    <li><a href="#">Competition #1</a></li>
+                                    <li><a href="#">Competition #2</a></li>
+                                    <li><a href="#">Competition #3</a></li>
+                                    <li><a href="#">Competition #4</a></li>
+                                    <li><a href="#">Competition #5</a></li>
+                                    <li><a href="#">Competition #6</a></li>
+                                    <li><a href="#">Competition #7</a></li>
                                 </ul>
                             </div>
                             <div className="column is-4">
-                                <h2><strong>Category</strong></h2>
+                                <h2><strong>Shotgun Shooting Livestream</strong></h2>
                                 <ul>
-                                    <li><a href="#">Objects in space</a></li>
-                                    <li><a href="#">Playing cards with coyote</a></li>
-                                    <li><a href="#">Goodbye Yellow Brick Road</a></li>
-                                    <li><a href="#">The Garden of Forking Paths</a></li>
-                                    <li><a href="#">Future Shock</a></li>
+                                    <li><a href="#">Competition #1</a></li>
+                                    <li><a href="#">Competition #2</a></li>
+                                    <li><a href="#">Competition #3</a></li>
+                                    <li><a href="#">Competition #4</a></li>
+                                    <li><a href="#">Competition #5</a></li>
+                                    <li><a href="#">Competition #6</a></li>
+                                    <li><a href="#">Competition #7</a></li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div className="content has-text-centered">
-                            <p>
-                                <a className="icon" href="https://github.com/BulmaTemplates/bulma-templates">
-                                    <i className="fa fa-github"></i>
-                                </a>
-                            </p>
-                            <div className="control level-item">
-                                <a href="https://github.com/BulmaTemplates/bulma-templates">
-                                    <div className="tags has-addons">
-                                        <span className="tag is-dark">Bulma Templates</span>
-                                        <span className="tag is-info">MIT license</span>
-                                    </div>
-                                </a>
                             </div>
                         </div>
                     </div>

@@ -169,7 +169,7 @@ class Shooting extends Component {
                                 <div className="card-content">
                                     <div className="content">
                                         <h4>Shooting Around Pets</h4>
-                                        <p>How to deal with you Pet's reactions to Gun Fire</p>
+                                        <p>How to deal with you Pet's reactions to Gun Fire. WARNING: Do not shoot dog with gun.</p>
                                         <p><a href="#">Learn more</a></p>
                                     </div>
                                 </div>

@@ -149,14 +149,14 @@ class Shooting extends Component {
                                 The International Center for Professional Shooting
                             </h1>
                             <h2 className="subtitle">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                From Pistol Shooting, to Rifle Shooting, and all Shooting Sports
                             </h2>
                         </div>
                     </div>
                 </section>
                 <div className="box cta">
                     <p className="has-text-centered">
-                        <span className="tag is-primary">Latest</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <span className="tag is-primary">Latest</span> New Shooting Sport Ideas are Circulating and being Reported Here.
                     </p>
                 </div>
                 <section className="container">
@@ -168,8 +168,8 @@ class Shooting extends Component {
                                 </div>
                                 <div className="card-content">
                                     <div className="content">
-                                        <h4>Tristique senectus et netus et. </h4>
-                                        <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
+                                        <h4>Shooting Around Pets</h4>
+                                        <p>How to deal with you Pet's reactions to Gun Fire</p>
                                         <p><a href="#">Learn more</a></p>
                                     </div>
                                 </div>
@@ -182,9 +182,8 @@ class Shooting extends Component {
                                 </div>
                                 <div className="card-content">
                                     <div className="content">
-                                        <h4>Tempor orci dapibus ultrices in.</h4>
-                                        <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem
-                                            sed risus.</p>
+                                        <h4>Shooting for the Government</h4>
+                                        <p>Police and Military Agencies are now recruiting Professional Shooters</p>
                                         <p><a href="#">Learn more</a></p>
                                     </div>
                                 </div>
@@ -197,8 +196,8 @@ class Shooting extends Component {
                                 </div>
                                 <div className="card-content">
                                     <div className="content">
-                                        <h4> Leo integer malesuada nunc vel risus. </h4>
-                                        <p>Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla pellentesque dignissim enim. Libero id faucibus nisl tincidunt eget nullam. Commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                        <h4>Shooting and Technology</h4>
+                                        <p>The Latest Technological Advances in Firearms</p>
                                         <p><a href="#">Learn more</a></p>
                                     </div>
                                 </div>
@@ -207,7 +206,7 @@ class Shooting extends Component {
                     </div>
                     <div className="intro column is-8 is-offset-2">
                         <h2 className="title">Latest News for all Shooting Sports</h2><br />
-                        <p className="subtitle">Vel fringilla est ullamcorper eget nulla facilisi. Nulla facilisi nullam vehicula ipsum a. Neque egestas congue quisque egestas diam in arcu cursus.</p>
+                        <p className="subtitle">From the Benign to the Bizarre, Shooting News</p>
                     </div>
                     {displayShootingNewsList}
                 </section>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Shooting.css';
 
 // Component
-import Article from './Article'
+import { Article } from './Article'
 
 const newShootingNews = [{
     title1: 'Competitive Musketry',

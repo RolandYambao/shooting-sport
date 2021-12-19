@@ -122,4 +122,20 @@ class Article extends Component {
     }
 }
 
-export default Article;
+class ArticlePet extends Component {
+
+    constructor(props) {
+        super(props)
+    }
+
+    render() {
+        return (
+            console.log("Test")
+        );
+    }
+}
+
+export {
+    Article,
+    ArticlePet,
+};

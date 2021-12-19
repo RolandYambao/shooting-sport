@@ -4,71 +4,72 @@ import './Pets.css';
 // Component
 import { ArticlePet } from './Article'
 
-const newShootingNews = [{
-    title1: 'Competitive Musketry',
-    content1: 'New Olympic Sport Proposal involving Smoothbore Muskets, Requires Minimal Training',
+const newPetPost = [{
+    title: 'Shooting Around Pets',
+    author: '@Bob',
+    content: 'Pets, we all love them, but when your practicing your competitive shooting, careful when shooting around them. Most important rule, do not point your gun at the pet, it may be tempting, but do not do it, it will kill them if you shoot the gun.',
 }];
 
 
-// const displayShootingNewsList = newShootingNews.map((post, idx) => {
-//     return (
-
-//     );
-// });
+const displayShootingNewsPetPost = newPetPost.map((post, idx) => {
+    return (
+        <ArticlePet key={idx} index={idx} title={post.title} author={post.author} content={post.content} />
+    )
+});
 
 class Pets extends Component {
     render() {
         return (
             <div>
                 {/* <!-- START NAV --> */}
-                <nav class="navbar">
-                    <div class="container">
-                        <div class="navbar-brand">
-                            <a class="navbar-item" href="../">
-                                <img src="../images/bulma.png" alt="Logo" />
+                <nav className="navbar">
+                    <div className="container">
+                        <div className="navbar-brand">
+                            <a className="navbar-item" href="../">
+                                <h1><strong>Sports Shooting International</strong></h1>
                             </a>
-                            <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span className="navbar-burger burger" data-target="navbarMenu">
                                 <span></span>
                                 <span></span>
                                 <span></span>
                             </span>
                         </div>
-                        <div id="navbarMenu" class="navbar-menu">
-                            <div class="navbar-end">
-                                <a class="navbar-item is-active">
+                        <div id="navbarMenu" className="navbar-menu">
+                            <div className="navbar-end">
+                                <a className="navbar-item is-active">
                                     Home
                                 </a>
-                                <a class="navbar-item">
-                                    Examples
+                                <a className="navbar-item">
+                                    News
                                 </a>
-                                <a class="navbar-item">
-                                    Features
+                                <a className="navbar-item">
+                                    Watch Competitions
                                 </a>
-                                <a class="navbar-item">
-                                    Team
+                                <a className="navbar-item">
+                                    Buy Guns
                                 </a>
-                                <a class="navbar-item">
-                                    Archives
+                                <a className="navbar-item">
+                                    About Us
                                 </a>
-                                <a class="navbar-item">
-                                    Help
+                                <a className="navbar-item">
+                                    Donate
                                 </a>
-                                <div class="navbar-item has-dropdown is-hoverable">
-                                    <a class="navbar-link">
+                                <div className="navbar-item has-dropdown is-hoverable">
+                                    <a className="navbar-link">
                                         Account
                                     </a>
-                                    <div class="navbar-dropdown">
-                                        <a class="navbar-item">
+                                    <div className="navbar-dropdown">
+                                        <a className="navbar-item">
                                             Dashboard
                                         </a>
-                                        <a class="navbar-item">
+                                        <a className="navbar-item">
                                             Profile
                                         </a>
-                                        <a class="navbar-item">
+                                        <a className="navbar-item">
                                             Settings
                                         </a>
-                                        <hr class="navbar-divider" />
-                                        <div class="navbar-item">
+                                        <hr className="navbar-divider" />
+                                        <div className="navbar-item">
                                             Logout
                                         </div>
                                     </div>
@@ -79,120 +80,16 @@ class Pets extends Component {
                 </nav>
                 {/* <!-- END NAV --> */}
 
-                <section class="hero is-info is-medium is-bold">
-                    <div class="hero-body">
-                        <div class="container has-text-centered">
-                            <h1 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />sed eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
+                <section className="hero is-info is-medium is-bold">
+                    <div className="hero-body">
+                        <div className="container has-text-centered">
+                            <h1 className="title">The Advice Column of the Sports Shooting International</h1>
                         </div>
                     </div>
                 </section>
 
+                {displayShootingNewsPetPost}
 
-                <div class="container">
-                    {/* <!-- START ARTICLE FEED --> */}
-                    <section class="articles">
-                        <div class="column is-8 is-offset-2">
-                            {/* <!-- START ARTICLE --> */}
-                            <div class="card article">
-                                <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-content has-text-centered">
-                                            <p class="title article-title">Introducing a new feature for paid subscribers</p>
-                                            <div class="tags has-addons level-item">
-                                                <span class="tag is-rounded is-info">@skeetskeet</span>
-                                                <span class="tag is-rounded">May 10, 202X</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content article-body">
-                                        <p>Non arcu risus quis varius quam quisque. Dictum varius duis at consectetur lorem. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. </p>
-                                        <p>Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Accumsan lacus vel facilisis volutpat. Non sodales neque sodales ut etiam.
-                                            Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.</p>
-                                        <h3 class="has-text-centered">How to properly center tags in bulma?</h3>
-                                        <p> Proper centering of tags in bulma is done with class: <pre>level-item</pre>
-                                            Voluptat ut farmacium tellus in metus vulputate. Feugiat in fermentum posuere urna nec. Pharetra convallis posuere morbi leo urna molestie.
-                                            Accumsan lacus vel facilisis volutpat est velit egestas. Fermentum leo vel orci porta. Faucibus interdum posuere lorem ipsum.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- END ARTICLE --> */}
-                            {/* <!-- START ARTICLE --> */}
-                            <div class="card article">
-                                <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-center">
-                                            <img src="https://res.cloudinary.com/ameo/image/upload/v1639144778/typocat_svbspx.png" class="author-image" alt="Placeholder image" />
-                                        </div>
-                                        <div class="media-content has-text-centered">
-                                            <p class="title article-title">Sapien eget mi proin sed 🔱</p>
-                                            <p class="subtitle is-6 article-subtitle">
-                                                <a href="#">@daria</a> on February 17, 202X
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="content article-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas. Sapien eget mi proin sed. Sit amet mattis vulputate enim.
-                                        </p>
-                                        <p>
-                                            Commodo ullamcorper a lacus vestibulum sed arcu. Fermentum leo vel orci porta non. Proin fermentum leo vel orci porta non pulvinar. Imperdiet proin fermentum leo vel. Tortor posuere ac ut consequat semper viverra. Vestibulum lectus mauris ultrices eros.
-                                        </p>
-                                        <h3 class="has-text-centered">Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Cras tincidunt lobortis feugiat vivamus.</h3>
-                                        <p>
-                                            In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in. At in tellus integer feugiat scelerisque varius morbi enim nunc. Vitae suscipit tellus mauris a diam.
-                                            Arcu non sodales neque sodales ut etiam sit amet.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- END ARTICLE --> */}
-                            {/* <!-- START PROMO BLOCK --> */}
-                            <section class="hero is-info is-bold is-small promo-block">
-                                <div class="hero-body">
-                                    <div class="container">
-                                        <h1 class="title">
-                                            <i class="fa fa-bell-o"></i> Nemo enim ipsam voluptatem quia.</h1>
-                                        <span class="tag is-black is-medium is-rounded">
-                                            Natus error sit voluptatem
-                                        </span>
-                                    </div>
-                                </div>
-                            </section>
-                            {/* <!-- END PROMO BLOCK --> */}
-                            {/* <!-- START ARTICLE --> */}
-                            <div class="card article">
-                                <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-center">
-                                            <img src="https://res.cloudinary.com/ameo/image/upload/v1639144778/typocat_svbspx.png" class="author-image" alt="Placeholder image" />
-                                        </div>
-                                        <div class="media-content has-text-centered">
-                                            <p class="title article-title">Cras tincidunt lobortis feugiat vivamus.</p>
-                                            <p class="subtitle is-6 article-subtitle">
-                                                <a href="#">@angela</a> on October 7, 202X
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="content article-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan lacus vel facilisis volutpat est velit egestas. Sapien eget mi proin sed. Sit amet mattis vulputate enim.
-                                        </p>
-                                        <p>
-                                            Commodo ullamcorper a lacus vestibulum sed arcu. Fermentum leo vel orci porta non. Proin fermentum leo vel orci porta non pulvinar. Imperdiet proin fermentum leo vel. Tortor posuere ac ut consequat semper viverra. Vestibulum lectus mauris ultrices eros.
-                                        </p>
-                                        <h3 class="has-text-centered">“Everyone should be able to do one card trick, tell two jokes, and recite three poems, in case they are ever trapped in an elevator.”</h3>
-                                        <p>
-                                            In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in. At in tellus integer feugiat scelerisque varius morbi enim nunc. Vitae suscipit tellus mauris a diam.
-                                            Arcu non sodales neque sodales ut etiam sit amet.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- END ARTICLE --> */}
-                        </div>
-
-                    </section>
-                </div>
             </div>
         );
     }

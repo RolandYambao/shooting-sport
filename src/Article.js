@@ -130,7 +130,38 @@ class ArticlePet extends Component {
 
     render() {
         return (
-            console.log("Test")
+            <div className="container" key={this.props.index}>
+                {/* <!-- START ARTICLE FEED --> */}
+                <section className="articles">
+                    <div className="column is-8 is-offset-2">
+
+                        {/* <!-- START ARTICLE --> */}
+                        <div className="card article">
+                            <div className="card-content">
+                                <div className="media">
+                                    <div className="media-center">
+                                        <img src="https://res.cloudinary.com/ameo/image/upload/v1639144778/typocat_svbspx.png" className="author-image" alt="Placeholder image" />
+                                    </div>
+                                    <div className="media-content has-text-centered">
+                                        <p className="title article-title">{this.props.title}</p>
+                                        <p className="subtitle is-6 article-subtitle">
+                                            <a href="#">{this.props.author}</a> on February 17, 202X
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="content article-body">
+                                    <p>
+                                        {this.props.content}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <!-- END ARTICLE --> */}
+
+                    </div>
+
+                </section>
+            </div>
         );
     }
 }

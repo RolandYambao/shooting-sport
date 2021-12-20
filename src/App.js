@@ -2,17 +2,17 @@
 // import './App.css';
 // import { render } from '@testing-library/react';
 import React, { Component } from 'react'
-// import Shooting from './Shooting';
+import Shooting from './Shooting';
 // import Pets from './Pets';
-import MachineGun from './MachineGun';
+// import MachineGun from './MachineGun';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Shooting /> */}
+        <Shooting />
         {/* <Pets /> */}
-        <MachineGun />
+        {/* <MachineGun /> */}
       </div>
     )
   }

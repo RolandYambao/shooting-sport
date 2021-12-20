@@ -488,8 +488,10 @@ test('renders Text tag', () => {
     const pElement = screen.getByText(/This time it is Different/i);
     expect(pElement).toBeInTheDocument();
 });
-
 ~~~
+
+Screenshot of Tests:
+![Alt text](ScreenshotTest.png "Screenshot #6")
 
 
 Heroku Link: https://shooting-sport.herokuapp.com/

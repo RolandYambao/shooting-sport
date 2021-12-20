@@ -1,5 +1,4 @@
 # Screenshots:
-![Alt text](Screenshot1.png "Screenshot #1")
 ![Alt text](Screenshot2.png "Screenshot #2")
 ![Alt text](Screenshot3.png "Screenshot #3")
 ![Alt text](Screenshot4.png "Screenshot #4")

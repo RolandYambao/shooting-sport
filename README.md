@@ -1,6 +1,9 @@
 # Screenshots:
 ![Alt text](Screenshot1.png "Screenshot #1")
 ![Alt text](Screenshot2.png "Screenshot #2")
+![Alt text](Screenshot3.png "Screenshot #3")
+![Alt text](Screenshot4.png "Screenshot #4")
+![Alt text](Screenshot5.png "Screenshot #5")
 
 ## Installation Instructions:
 Fork and Clone this repository and type "npm install" in the terminal to obtain necessary dependencies.

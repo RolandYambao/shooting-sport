@@ -1,4 +1,7 @@
-# Screenshots:
+# Introduction:
+This website is a news website, with a satirical bent, dedicated to competitive shooting sports.
+
+## Screenshots:
 ![Alt text](ScreenshotFront.png "Screenshot #1")
 ![Alt text](Screenshot2.png "Screenshot #2")
 ![Alt text](Screenshot3.png "Screenshot #3")

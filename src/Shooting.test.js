@@ -70,6 +70,6 @@ test('renders Text tag', () => {
 
 test('renders Text tag', () => {
     render(<Shooting />);
-    const pElement = screen.getByText(/Sports Shooting/i);
+    const pElement = screen.getByText(/This time it is Different/i);
     expect(pElement).toBeInTheDocument();
 });

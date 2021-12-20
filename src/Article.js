@@ -166,7 +166,107 @@ class ArticlePet extends Component {
     }
 }
 
+class ArticleMachineGun extends Component {
+
+    constructor(props) {
+        super(props)
+    }
+
+    render() {
+        return (
+            <div>
+                <section className="hero is-medium" key={this.props.index}>
+                    <div className="hero-body">
+                        <div className="container">
+                            <h1 className="title is-1 ">{this.props.title1}</h1>
+                            <h2 className="subtitle">{this.props.content1}</h2>
+                            <a href="#" className="button is-white is-medium is-inverted">Learn More&ensp;<i className="fad fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </section>
+                <section id="parallax-1" className="hero is-large ">
+                    <div className="hero-body">
+                        <div className="container">
+                            <div className="columns">
+                                <div className="column is-6 is-offset-6">
+                                    <h1 className="title is-1 ">{this.props.title2}</h1>
+                                    <hr className="content-divider" />
+                                    <h2 className="subtitle">{this.props.content2}</h2>
+                                    <a href="#" className="button is-white is-inverted">Next&ensp;<i className="fad fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="parallax-2" className="hero is-large ">
+                    <div className="hero-body">
+                        <div className="container">
+                            <div className="columns">
+                                <div className="column is-6">
+                                    <h1 className="title is-1 ">{this.props.title3}</h1>
+                                    <hr className="content-divider" />
+                                    <h2 className="subtitle">{this.props.content3}</h2>
+                                    <a href="#" className="button is-white is-inverted">Next&ensp;<i className="fad fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="parallax-3" className="hero is-large ">
+                    <div className="hero-body">
+                        <div className="container">
+                            <div className="columns">
+                                <div className="column is-6 is-offset-6">
+                                    <h1 className="title is-1 ">{this.props.title4}</h1>
+                                    <hr className="content-divider" />
+                                    <h2 className="subtitle">{this.props.content4}</h2>
+                                    <a href="#" className="button is-white is-inverted">Next&ensp;<i className="fad fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="cta va">
+                    <div className="container">
+                        <div className="columns">
+                            <div className="column is-6">
+                                <h1 className="title is-1 ">{this.props.title5}</h1>
+                                <hr className="content-divider" />
+                                <h2 className="subtitle">{this.props.content5}</h2>
+                            </div>
+                            <div className="column is-6">
+                                <div className="field">
+                                    <label className="label">Name</label>
+                                    <div className="control">
+                                        <input className="input is-medium" type="text" placeholder="Jon Snow" />
+                                    </div>
+                                </div>
+                                <br />
+                                <div className="field">
+                                    <label className="label">Email</label>
+                                    <div className="control">
+                                        <input className="input is-medium" type="email" placeholder="jon@winterfell.com" />
+                                    </div>
+                                </div>
+                                <br />
+                                <div className="field is-grouped">
+                                    <div className="control">
+                                        <button className="button is-white is-rounded is-outlined">Submit</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        );
+    }
+}
+
 export {
     Article,
     ArticlePet,
+    ArticleMachineGun,
 };
